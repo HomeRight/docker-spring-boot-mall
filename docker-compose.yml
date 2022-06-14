@@ -5,6 +5,7 @@ services:
     build:
       context: ./db
     image: alensu0829/mysql-db-02
+    command: --lower_case_table_names=1
     ports: 
       - "3306:3306"
     environment:
