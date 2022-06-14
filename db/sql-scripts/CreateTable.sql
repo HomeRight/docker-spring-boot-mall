@@ -5,4 +5,4 @@ CREATE TABLE user
     password           VARCHAR(256) NOT NULL,
     created_date       TIMESTAMP    NOT NULL,
     last_modified_date TIMESTAMP    NOT NULL
-);
+) ENGINE = INNODB COLLATE =utf8_general_ci;
